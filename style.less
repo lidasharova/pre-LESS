@@ -4,14 +4,13 @@
 
 @font-face {
   font-family: Roboto;
-  src: url("fontRoboto/Roboto.ttf ");
+  src: url('fontRoboto/Roboto.ttf ');
 }
 @font-face {
   font-family: Roboto;
-  src: url("fontRoboto/Robotobold.ttf ");
+  src: url('fontRoboto/Robotobold.ttf ');
   font-weight: bold;
 }
-
 
 .special {
   border-bottom: 1px solid black;
@@ -46,7 +45,6 @@ body {
     margin-left: 5px;
   }
 }
-
 
 .header {
   box-shadow: @shadow;
@@ -100,7 +98,6 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
 
-
   .product-title {
     margin-top: 20px;
     font-size: 20px;
@@ -113,9 +110,7 @@ body {
     color: @color-text;
     margin: 20px 10px 0 0;
   }
-
 }
-
 
 .about {
   box-shadow: @shadow;
@@ -129,8 +124,6 @@ body {
     height: 800px;
     justify-content: center;
   }
-
-
 }
 
 .about-text {
@@ -139,7 +132,6 @@ body {
   font-size: 20px;
   line-height: 30px;
 }
-
 
 .title {
   font-size: 20px;
@@ -150,9 +142,7 @@ body {
   padding: 25px 0;
 }
 
-
 .delivery {
-
   .container {
     height: 800px;
     padding-top: 50px;
@@ -174,7 +164,6 @@ body {
     }
   }
 }
-
 
 .connection {
   box-shadow: @shadow;
@@ -203,18 +192,17 @@ body {
       padding: 22px 18px;
       width: 100%;
       height: 40px;
-      background: #FFFFFF;
-      border: 1px solid #5D5D5F;
+      background: #ffffff;
+      border: 1px solid #5d5d5f;
       box-sizing: border-box;
       font-size: 15px;
       color: #000000;
       outline: none; /*убираем стандартную обводку браузера у формы*/
       margin-bottom: 15px;
-
     }
 
     .connection-input::placeholder {
-      color: #5D5D5F;
+      color: #5d5d5f;
       text-align: center;
     }
 
@@ -231,32 +219,27 @@ body {
       font-size: 15px;
       letter-spacing: 0.02em;
       text-transform: uppercase;
-      color: #FFFFFF;
-      transition: background-color .5s;
+      color: #ffffff;
+      transition: background-color 0.5s;
+      cursor: pointer;
     }
   }
 }
 
 .footer {
-  border-top: 3px solid #E5E5E5;
+  border-top: 3px solid #e5e5e5;
   box-shadow: @shadow;
   padding-bottom: 50px;
 
-
   .contacts {
     display: flex;
-    justify-content:center;
-    div{
+    justify-content: center;
+    div {
       color: @color;
       margin: 40px 50px;
       font-size: 20px;
     }
   }
-
-
 }
 
-@import "second";
-
-
-
+@import 'second';
